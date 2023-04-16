@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "blob:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev blob --temp .temp",
-    "blob:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build blob"
+    "blob:dev": "vuepress dev blob --temp .temp",
+    "blob:build": "vuepress build blob"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.4",
